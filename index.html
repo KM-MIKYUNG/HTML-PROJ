@@ -3,52 +3,74 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Maybach S-Class</title>
-    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Mercedes-Benz Maybach S-Class 상세 페이지">
+    <title>Mercedes-Benz Maybach S-Class</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <div class="logo">
-            <a href="#"><img src="images/logo.png" alt="Mercedes-Benz Logo"></a>
-        </div>
-        <nav aria-label="Main Navigation">
+        <nav>
+            <div class="logo">
+                <img src="logo.png" alt="Mercedes-Benz Logo">
+            </div>
             <ul>
+                <li><a href="#">홈</a></li>
                 <li><a href="#">모델</a></li>
-                <li><a href="#">서비스</a></li>
-                <li><a href="#">쇼핑 도구</a></li>
-                <li><a href="#">회사</a></li>
+                <li><a href="#">기술</a></li>
+                <li><a href="#">뉴스</a></li>
+                <li><a href="#">연락처</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <section class="hero" aria-label="Maybach S-Class Overview">
-            <img src="images/maybach-hero.jpg" alt="Maybach S-Class">
-            <div class="hero-text">
-                <h1>Maybach S-Class</h1>
-                <p>최고의 럭셔리와 성능을 경험하세요.</p>
+        <section class="intro">
+            <h1>메르세데스-벤츠 마이바흐 S-클래스</h1>
+            <img src="maybach-s-class-main.jpg" alt="Mercedes-Benz Maybach S-Class">
+            <p>럭셔리와 기술의 정점에 선 자동차, 메르세데스-벤츠 마이바흐 S-클래스를 만나보세요.</p>
+        </section>
+        <section class="features">
+            <h2>기능 및 특징</h2>
+            <div class="feature">
+                <img src="feature1.jpg" alt="럭셔리 인테리어">
+                <h3>럭셔리 인테리어</h3>
+                <p>최고급 소재와 정교한 디자인의 인테리어.</p>
+            </div>
+            <div class="feature">
+                <img src="feature2.jpg" alt="첨단 기술">
+                <h3>첨단 기술</h3>
+                <p>최신 기술로 무장한 혁신적인 기능들.</p>
+            </div>
+            <div class="feature">
+                <img src="feature3.jpg" alt="강력한 성능">
+                <h3>강력한 성능</h3>
+                <p>강력한 엔진과 최첨단 주행 보조 시스템.</p>
             </div>
         </section>
-        <section class="features" aria-labelledby="features-heading">
-            <h2 id="features-heading">주요 기능</h2>
-            <div class="feature" aria-labelledby="feature1-heading">
-                <img src="images/feature1.jpg" alt="럭셔리 디자인">
-                <h3 id="feature1-heading">럭셔리 디자인</h3>
-                <p>최고급 소재와 세심한 디테일로 완성된 디자인.</p>
-            </div>
-            <div class="feature" aria-labelledby="feature2-heading">
-                <img src="images/feature2.jpg" alt="강력한 성능">
-                <h3 id="feature2-heading">강력한 성능</h3>
-                <p>최신 기술과 강력한 엔진으로 최고의 드라이빙 경험 제공.</p>
-            </div>
-            <div class="feature" aria-labelledby="feature3-heading">
-                <img src="images/feature3.jpg" alt="최첨단 기술">
-                <h3 id="feature3-heading">최첨단 기술</h3>
-                <p>최신 안전 기술과 편의 기능으로 무장.</p>
-            </div>
+        <section class="specs">
+            <h2>기술 사양</h2>
+            <table>
+                <tr>
+                    <th>항목</th>
+                    <th>사양</th>
+                </tr>
+                <tr>
+                    <td>엔진</td>
+                    <td>4.0L V8 트윈터보</td>
+                </tr>
+                <tr>
+                    <td>출력</td>
+                    <td>496마력</td>
+                </tr>
+                <tr>
+                    <td>토크</td>
+                    <td>700Nm</td>
+                </tr>
+                <!-- 추가 사양 -->
+            </table>
         </section>
     </main>
     <footer>
-        <p>&copy; 2024 Mercedes-Benz. 모든 권리 보유.</p>
+        <p>&copy; 2024 Mercedes-Benz. All rights reserved.</p>
     </footer>
 </body>
 </html>
